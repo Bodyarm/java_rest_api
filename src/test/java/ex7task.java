@@ -1,12 +1,11 @@
 import io.restassured.RestAssured;
-import io.restassured.http.Headers;
 import io.restassured.response.Response;
 import org.junit.Test;
 
 public class ex7task {
 
     @Test
-    public void ex7task(){
+    public void ex7taskTest(){
 
         Response response = RestAssured
                 .given()
