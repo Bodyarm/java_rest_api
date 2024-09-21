@@ -12,7 +12,7 @@ public class ex12task extends BaseTestCase {
 
 
     @Test
-    public void checkCookieTest(){
+    public void checkHeaderTest(){
         Response responseCheckAuth = RestAssured
                 .get("https://playground.learnqa.ru/api/homework_header")
                 .andReturn();
